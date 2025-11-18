@@ -1,9 +1,3 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
-
-One function per operation, in order.
-"""
 # GitHub: https://github.com/katie8331/lab11-AT-KB
 # Partner 1: Isabel Tejeda
 # Partner 2: Katie Brisson
@@ -17,11 +11,11 @@ def subtract(a, b):
     return a - b
 
 
-def multiply(a, b):
+def mul(a, b):
     return a * b
 
 
-def divide(a, b):
+def div(a, b):
     if a == 0:
         raise ZeroDivisionError("cannot divide by zero")
     return b / a
@@ -35,7 +29,7 @@ def logarithm(a, b):
     return math.log(b, a)
 
 
-def exponent(a, b):
+def exp(a, b):
     return a ** b
 
 def square_root(a):

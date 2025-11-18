@@ -14,16 +14,16 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(calculator.subtract(3, 10), -7)
     ######## Partner 1
     def test_multiply(self): # 3 assertions
-        self.assertEqual(calculator.multiply(3, 5), 15)
-        self.assertEqual(calculator.multiply(-2, 4), -8)
+        self.assertEqual(calculator.mul(3, 5), 15)
+        self.assertEqual(calculator.mul(-2, 4), -8)
     def test_divide(self): # 3 assertions
-        self.assertEqual(calculator.divide(2, 10), 5)
-        self.assertAlmostEqual(calculator.divide(4, 10), 2.5)
+        self.assertEqual(calculator.div(2, 10), 5)
+        self.assertAlmostEqual(calculator.div(4, 10), 2.5)
 
     ######## Partner 2
     def test_divide_by_zero(self): # 1 assertion
         with self.assertRaises(ZeroDivisionError):
-            calculator.divide(0, 5)
+            calculator.div(0, 5)
 
     def test_logarithm(self): # 3 assertions
         self.assertAlmostEqual(calculator.logarithm(10, 100), 2.0)
