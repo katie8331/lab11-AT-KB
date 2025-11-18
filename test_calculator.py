@@ -1,3 +1,6 @@
+# GitHub: https://github.com/katie8331/lab11-AT-KB
+# Partner 1: Isabel Tejeda
+# Partner 2: Katie Brisson
 import unittest
 import calculator
 
